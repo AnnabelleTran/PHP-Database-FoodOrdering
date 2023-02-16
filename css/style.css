@@ -1,0 +1,209 @@
+
+body{
+    background-color: rgb(143, 174, 143);
+    margin: 0;
+    position: relative;
+    padding-bottom: 5vw;
+}
+.list{
+    margin: 2vw;
+    background-color: #FFFFFF;
+    padding: 1vw;
+    border-radius: 1vw;
+    border:rgb(40, 102, 60) .5vw double;
+    box-shadow: 2px 2px 2px rgb(70, 64, 64);
+    font-family: 'Roboto', sans-serif;
+}
+th, td {
+    width: 12%;
+    text-align: center;
+    border-bottom: 1px solid rgb(70, 64, 64);
+    border-right: 1px solid rgb(70, 64, 64);
+    padding: .5vw;
+}
+.heading{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 2vw;
+    background-color: rgb(40, 102, 60);   
+    color: white;
+    margin: 3vw 2vw;
+}
+.createbutton{
+    background-color: rgb(83, 188, 86);
+    padding: 1vw;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    border-radius: 1vw;
+    border: .1vw solid black;
+    margin-top: .25vw;
+    margin-left: 3vw;
+}
+.view{
+    grid-area: view;
+    background-color: rgb(83, 188, 86);
+    color: white;
+    text-decoration: none;
+    padding: .5vw;
+    border-radius: .5vw;
+}
+.edit{
+    grid-area: edit;
+    background-color: rgb(83, 128, 188);
+    color: white;
+    text-decoration: none;
+    padding: .5vw;
+    border-radius: .5vw;
+}
+.del{
+    grid-area: del;
+    background-color: rgb(188, 83, 83);
+    color: white;
+    text-decoration: none;
+    padding: .5vw;
+    border-radius: .5vw;
+    
+
+}
+.backbutton{
+    background-color: rgb(188, 83, 83);
+    padding: .5vw 1vw;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    border-radius: 1vw;
+    border: .1vw solid black;
+    margin-left: 3vw;
+}
+footer{
+    background-color: rgb(50, 66, 55);
+    padding: 1vw 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 10vw;
+    bottom: 0;
+    margin-top: 5vw;
+    margin-bottom: -10vw;
+    position: absolute;
+    width: 100%;
+}
+.inforow{
+    margin-bottom: 5vw;
+}
+.infoform{
+    display: flex;
+    align-items: 'center';
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.formq{
+    width: 50vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3vw;
+    text-align: left;
+}
+.qinput{
+    width: 50vw;
+    padding: .5vw;
+    border-radius: 1vw;
+    font-size: 1.25vw;
+}
+.submitbutton{
+    text-align: center;
+    background-color: rgb(83, 188, 86);   
+    color: black;
+    margin-top: 1vw;
+    padding: .5vw 1vw;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    border-radius: 1vw;
+    border: .1vw solid black;
+    font-size: 1.25vw;
+}
+.indexbutton{
+    text-align: center;
+}
+.indextext{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.5vw;
+    background-color: rgba(228, 228, 228,.5);
+    padding: 2.5vw;
+}
+.delnotif{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+    padding: 1.5vw;
+}
+nav{
+    background-color: rgb(50, 66, 55);
+    padding: 1vw 2vw;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.footercontainer{
+    padding-left: 2.5vw;
+    padding-top: .5vw;
+}
+.maincontainer{
+    display: grid;
+    grid-template-areas: 
+    "mainbody mainbody mainbody mainbody mainbody mainbody dash";
+}
+.mainbody{
+    grid-area: mainbody;
+}
+.dashboard{
+    grid-area:dash;
+    background-color: rgb(18, 71, 18);
+    display: flex;
+    flex-direction: column;
+    height: 115%;
+    text-align: center;
+    padding: 2vw 0vw;
+    border-left:rgb(50, 66, 55) solid .1vw;
+}
+.dashboard a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.dashlink{
+    padding: 1vw 0vw;
+    border-bottom: 1px solid white;
+}
+.login{
+    text-align: center;
+    background-color: rgb(18, 71, 18);
+    padding: 5vw;
+    margin: 5vw;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+.loginput{
+    font-size: 1.25vw;
+    border-radius: .5vw;
+    margin-bottom: 2vw;
+    padding: .5vw;
+}
+.logbutton{
+    text-decoration: none;
+    font-size: 1.25vw;
+    color: black;
+}
+.logbuttonoutside{
+    background-color: rgb(83, 188, 86);
+    border: none;
+    padding: .5vw 2vw;
+    border-radius: 3vw;
+    font-size: 1.25vw;
+}
+.foodimg{
+    background-image: url("images/food.jpg");
+    background-repeat: no-repeat;
+    background-size: 150vw;
+    background-position-x: center;
+}
